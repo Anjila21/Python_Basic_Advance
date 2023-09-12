@@ -25,3 +25,6 @@ print(array2.flatten())
 
 #transpose() : exchanges the rows and column of the inital matraix
 print(reshape2.transpose())
+
+example = np.arange(20,30).reshape(2,5)
+print(example)

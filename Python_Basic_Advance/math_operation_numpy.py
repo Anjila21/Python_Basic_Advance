@@ -31,8 +31,24 @@ print("Product is:",array1 @ array2)
 print("Max value in array max is:",product.max())
 
 #To find max value in row and column
+max=product.max(axis=0)
 print("Max value in prod", product.max(axis=1))
-print("Max value in column in product matrix is:",product.max(axis=0))
-
+print("Max value in column in product matrix is:",max)
 
 #To find the min value in row and column
+min=add.min(axis=1)
+print("The min value in add matrix",min)
+print("The min value in column in add matrix is:",add.min(axis=0))
+
+#To find out the index
+print("The index of min value in row is:",min.argmin())
+print("The index of max value in column is:", max.argmax())
+
+min=add.min(axis=0)
+print("The min value in column in add matrix is:",min)
+print("The index of max value in column is:", max.argmin())
+
+max=add.max(axis=1)
+print("The max value column in add matrix is:",max)
+print("The index of max value in column is:",np.argmax(max))
+
