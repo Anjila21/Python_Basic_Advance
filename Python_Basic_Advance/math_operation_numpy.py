@@ -52,3 +52,8 @@ max=add.max(axis=1)
 print("The max value column in add matrix is:",max)
 print("The index of max value in column is:",np.argmax(max))
 
+sum=product.sum()
+print("The sum of product matrix is:",sum)
+
+
+
