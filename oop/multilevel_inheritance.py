@@ -1,3 +1,4 @@
+#This Multiple Inheritance
 class A:
     def a(self):
         print("My Name is Anjila Tripathi")
